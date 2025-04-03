@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Common temporary/editor files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# Node-related (if you ever use npm for a JS-based page)
+node_modules/
+dist/
+
+# VS Code
+.vscode/
+
+# GitHub Pages / Jekyll (optional - uncomment if not using Jekyll)
+# _site/
+# .jekyll-cache/
