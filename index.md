@@ -11,7 +11,7 @@ Hi, I'm Kevin Mazur—GISNerd. I combine spatial intelligence with modern coding
 
 ### Land Cover Change in SWFWMD (2011–2023)
 An interactive WebGIS project that examines land cover transitions in the Southwest Florida Water Management District over a 12-year period using NLCD data.  
-[Learn More →](project.html) or [View Interactive Map →](map.html)
+[Learn More →](https://kevinmgis.github.io/LandUse_Change_Web/) or [View Interactive Map →](map.html)
 
 *Other projects coming soon!*
 
