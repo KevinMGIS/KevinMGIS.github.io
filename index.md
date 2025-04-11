@@ -12,7 +12,7 @@ title: "GISNerd - Geospatial Intelligence, Powered by Code"
 - [Pasco School Safety](#pasco-school-safety)
 - [Earthquake Visualization](#earthquake-visualization)
 - [Seagrass Change SWFWMD](#seagrass-change-swfwmd)
-- [Hills Safety and Services](#hills-safety-and-services)
+- [Hillsborough Safety and Services](#hills-safety-and-services)
 - [Land Cover Change in SWFWMD (2011 - 2023)](#land-cover-change-in-swfwmd-2011---2023)
 
 ## Project Details
@@ -52,7 +52,7 @@ This project investigates changes in seagrass distribution within the Southwest 
 
 <div class="project-card">
 {% capture hills %}
-### Hills Safety and Services {#hills-safety-and-services}
+### Hillsborough Safety and Services {#hills-safety-and-services}
 
 The Hills Safety and Services project conducts an in-depth spatial analysis of community safety and accessibility to essential services in Hills County. Combining traditional GIS techniques with modern web mapping solutions such as Mapbox and custom JavaScript frameworks, the project involves comprehensive data collection, network analysis for emergency service coverage, and detailed visualization of infrastructure needs.
 
