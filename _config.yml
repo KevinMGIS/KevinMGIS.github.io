@@ -1,4 +1,38 @@
 # _config.yml
-title: "GISNerd"
-description: "Land Cover Change Project by Kevin Mazur"
-theme: minima
+
+# Site settings
+title: "GISNerd - Portfolio"
+description: "Projects by the GIS Nerd"
+
+# URL settings
+baseurl: ""
+url: "https://kevinmgis.github.io"
+
+# Use the Minimal Mistakes remote theme
+remote_theme: "mmistakes/minimal-mistakes@4.25.0"
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+
+# Collections: define a 'projects' collection for your portfolio projects
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+
+# Minimal Mistakes theme settings
+theme_settings:
+  # Enable the portfolio layout (if available in your theme version) and configure portfolio options
+  portfolio:
+    enabled: true
+    # You can add further customization options here as needed
+
+# Markdown and syntax highlighting
+markdown: kramdown
+highlighter: rouge
+
+# Exclude unnecessary files
+exclude:
+  - Gemfile
+  - Gemfile.lock
