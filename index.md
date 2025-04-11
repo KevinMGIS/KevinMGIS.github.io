@@ -5,30 +5,42 @@ title: "GISNerd - Geospatial Intelligence, Powered by Code"
 
 # Welcome to GISNerd
 
-Hi, I'm Kevin — the GISNerd. I combine spatial intelligence with modern coding techniques to unlock valuable insights in the world of GIS. My work spans traditional spatial analysis, web mapping, and innovative data visualization projects.
+**Disclaimer: These projects and the data used are strictly for demonstration and coding exercise purposes. They should not be used for any real analysis or decision-making.**
 
-## Featured Projects
+## Projects Overview
 
+- [Pasco School Safety](#pasco-school-safety)
+- [Earthquake Visualization](#earthquake-visualization)
+- [Seagrass Change SWFWMD](#seagrass-change-swfwmd)
+- [Hills Safety and Services](#hills-safety-and-services)
+- [Land Cover Change in SWFWMD (2011 - 2023)](#land-cover-change-in-swfwmd-2011---2023)
 
-- [Pasco School Safety](https://kevinmgis.github.io/Pasco_School_Safety/)
-  
-  The Pasco School Safety project focuses on analyzing geospatial data related to school safety initiatives in Pasco County. It integrates data on school locations, emergency routes, and nearby facilities to highlight areas of potential risk and opportunities for improvement.
+## Project Details
 
-- [Earthquake Visualization](https://kevinmgis.github.io/Earthquake_Visualization/)
-  
-  The Earthquake Visualization project provides an interactive map of earthquake events, highlighting their magnitudes and locations. It combines real-time data with historical records to give a comprehensive overview of seismic activity.
+### Pasco School Safety {#pasco-school-safety}
 
-- [Seagrass Change SWFWMD](https://kevinmgis.github.io/Seagrass_Change_SWFWMD/)
-  
-  This project explores the dynamic changes in seagrass distribution within the Southwest Florida Water Management District over recent years. Using remote sensing data and advanced visualization techniques, it reveals trends and potential environmental impacts.
+The Pasco School Safety project focuses on analyzing geospatial data related to school safety initiatives in Pasco County. It utilizes industry-standard GIS tools such as ArcGIS and QGIS, along with custom Python scripts and web mapping libraries like Leaflet, to collect and analyze data from multiple sources. The workflow includes data cleaning, geocoding, network analysis for emergency routes, and risk assessment, providing actionable insights for enhancing school safety.
+[View Project →](https://kevinmgis.github.io/Pasco_School_Safety/map.html)
 
-- [Hills Safety and Services](https://kevinmgis.github.io/Hills_Safety_and_Services/)
-  
-  The Hills Safety and Services project assesses community safety and accessibility to essential services within Hills County. Through detailed mapping and analysis, it identifies key areas where improvements are needed in infrastructure and emergency response.
+### Earthquake Visualization {#earthquake-visualization}
 
-- [Land Cover Change in SWFWMD (2011 - 2023)](https://kevinmgis.github.io/LandUse_Change_Web/)
+The Earthquake Visualization project offers an interactive map that visualizes both historical and real-time earthquake data. By integrating APIs from the USGS with JavaScript libraries such as Leaflet and D3.js, the project processes seismic data through a robust pipeline involving data extraction, transformation, and visualization. This comprehensive approach delivers a dynamic view of seismic activity that enhances understanding and public awareness.
+[View Project →](https://kevinmgis.github.io/Earthquake_Visualization/map.html)
 
-  An interactive WebGIS project that examines land cover transitions in the Southwest Florida Water Management District over a 12-year period using NLCD data. 
+### Seagrass Change SWFWMD {#seagrass-change-swfwmd}
+
+This project investigates changes in seagrass distribution within the Southwest Florida Water Management District over recent years. It leverages remote sensing tools, satellite imagery analysis with GIS software like ArcGIS and ENVI, and custom Python scripts for time-series analysis. The process involves detailed image classification, change detection algorithms, and interactive mapping to illustrate environmental trends and impacts.
+[View Project →](https://kevinmgis.github.io/Seagrass_Change_SWFWMD/map.html)
+
+### Hills Safety and Services {#hills-safety-and-services}
+
+The Hills Safety and Services project conducts an in-depth spatial analysis of community safety and accessibility to essential services in Hills County. Combining traditional GIS techniques with modern web mapping solutions such as Mapbox and custom JavaScript frameworks, the project involves comprehensive data collection, network analysis for emergency service coverage, and detailed visualization of infrastructure needs.
+[View Project →](https://kevinmgis.github.io/Hills_Safety_and_Services/map.html)
+
+### Land Cover Change in SWFWMD (2011 - 2023) {#land-cover-change-in-swfwmd-2011---2023}
+
+An interactive WebGIS project that examines land cover transitions in the Southwest Florida Water Management District over a 12-year period using NLCD data. The project employs remote sensing methods, spatial analysis in ArcGIS, and web mapping technologies to deliver in-depth insights into regional environmental changes. The workflow encompasses data preprocessing, change detection algorithms, and interactive visualizations that reveal patterns in land cover dynamics.
+[View Project →](https://kevinmgis.github.io/LandUse_Change_Web/map.html)
 
 *Other projects coming soon!*
 
