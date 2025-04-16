@@ -26,7 +26,7 @@ This project is an interactive web-based visualization tool that displays histor
 
 [View Project →](https://kevinmgis.github.io/Hurricane_Visualization/map.html)
 {% endcapture %}
-{{ hurricane | markdownify }}
+{{ hurricanes | markdownify }}
 </div>
 
 <div class="project-card">
