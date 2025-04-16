@@ -9,6 +9,7 @@ title: "GISNerd - Geospatial Intelligence, Powered by Code"
 
 ## Projects Overview
 
+- [Active & Historical Wildfire Visualization](#wildfire)
 - [Historical Hurricane Visualization](#hurricane)
 - [Pasco School Safety](#pasco-school-safety)
 - [Earthquake Visualization](#earthquake-visualization)
@@ -17,6 +18,17 @@ title: "GISNerd - Geospatial Intelligence, Powered by Code"
 - [Land Cover Change in SWFWMD (2011 - 2023)](#land-cover-change-in-swfwmd-2011---2023)
 
 ## Project Details
+
+<div class="project-card">
+{% capture wildfire %}
+### Active & Historical Wildfire Visualization {#wildfire}
+
+This project is a comprehensive real-time and historical wildfire monitoring and analysis application. It leverages NASA’s FIRMS data to display current wildfire hotspots on an interactive Leaflet map, where markers are color-coded based on confidence levels to indicate fire intensity. The system continuously ingests raw fire event data and stores it in AWS DynamoDB via scheduled Lambda functions, which also perform data aggregation to generate meaningful historical trends. Users can select different time ranges (past week, month, or year) to view interactive charts—built with Chart.js—that illustrate metrics such as total fires, average brightness, and average confidence over time, while a secondary historical map visualizes the spatial distribution of these events using actual geographic coordinates. This project not only serves as a dynamic portfolio piece but also as a valuable tool for analyzing the temporal and spatial dynamics of wildfires.
+
+[View Project →](https://kevinmgis.github.io/Wildfire_Visualization/map.html)
+{% endcapture %}
+{{ wildfire | markdownify }}
+</div>
 
 <div class="project-card">
 {% capture hurricanes %}
