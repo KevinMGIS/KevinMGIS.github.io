@@ -9,6 +9,7 @@ title: "GISNerd - Geospatial Intelligence, Powered by Code"
 
 ## Projects Overview
 
+- [Historical Hurricane Visualization](#hurricane)
 - [Pasco School Safety](#pasco-school-safety)
 - [Earthquake Visualization](#earthquake-visualization)
 - [Seagrass Change SWFWMD](#seagrass-change-swfwmd)
@@ -16,6 +17,17 @@ title: "GISNerd - Geospatial Intelligence, Powered by Code"
 - [Land Cover Change in SWFWMD (2011 - 2023)](#land-cover-change-in-swfwmd-2011---2023)
 
 ## Project Details
+
+<div class="project-card">
+{% capture hurricanes %}
+### Historical Hurricane Visualization {#hurricane}
+
+This project is an interactive web-based visualization tool that displays historical hurricane data for the Atlantic and Gulf of Mexico. It combines an interactive map with overlaid storm tracks, dynamic statistics, and multiple charts to analyze key aspects of hurricane activity. Users can select a specific year from a dropdown menu, and the visualization updates to show only the hurricane season (June through November) data. The map displays the storm tracks with colors representing different hurricane categories based on maximum wind speeds, while accompanying charts provide insights into the number of storms per month, the average wind speeds, and the total track lengths. Additional features include a toggle to filter and display only major hurricanes and an animation function that progressively draws the hurricane tracks over time. This comprehensive project leverages open data from NOAA and integrates mapping and charting libraries like Leaflet and Chart.js to create a robust analytical tool for understanding historical hurricane patterns and seasonal trends.
+
+[View Project →](https://kevinmgis.github.io/Hurricane_Visualization/map.html)
+{% endcapture %}
+{{ hurricane | markdownify }}
+</div>
 
 <div class="project-card">
 {% capture pasco %}
