@@ -30,7 +30,7 @@ The Dade County Services Map brings several new techniques together, including *
 
 Users can now interact with and visualize service access data for schools, hospitals, fire stations, and police stations in Miami-Dade County, making this an essential tool for public service accessibility analysis.
 
-[View Project →](https://kevinmgis.github.io/Dade_County_Services_Map/map.html)
+[View Project →](https://kevinmgis.github.io/Dade_County_Services/map.html)
 {% endcapture %}
 {{ dade-county | markdownify }}
 </div>
