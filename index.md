@@ -21,18 +21,18 @@ title: "GISNerd - Geospatial Intelligence, Powered by Code"
 ## Project Details
 
 <div class="project-card">
-  {% capture dade-county %}
-  ### Dade County Services Map (Advanced GIS) {#dade-county-services-map}
+{% capture dade-county %}
+### Dade County Services Map (Advanced GIS) {#dade-county-services-map}
 
-  This project represents the evolution of my previous GIS work and serves as an advanced example of interactive geospatial analysis and visualization. Building on earlier projects such as the Pasco School Safety map and the Hillsborough Safety and Services map, this project incorporates advanced functionality like **service density heatmaps**, **real-time querying** of geospatial features, and dynamic **interactive charts**.
+This project represents the evolution of my previous GIS work and serves as an advanced example of interactive geospatial analysis and visualization. Building on earlier projects such as the Pasco School Safety map and the Hillsborough Safety and Services map, this project incorporates advanced functionality like **service density heatmaps**, **real-time querying** of geospatial features, and dynamic **interactive charts**.
 
-  The Dade County Services Map brings several new techniques together, including **spatial queries** to find nearby services, **heatmap visualizations**, and a robust **searchable interface**. It's a more sophisticated version of previous maps, with a focus on GIS functionality and interactivity for decision-making. 
+The Dade County Services Map brings several new techniques together, including **spatial queries** to find nearby services, **heatmap visualizations**, and a robust **searchable interface**. It's a more sophisticated version of previous maps, with a focus on GIS functionality and interactivity for decision-making. 
 
-  Users can now interact with and visualize service access data for schools, hospitals, fire stations, and police stations in Miami-Dade County, making this an essential tool for public service accessibility analysis.
+Users can now interact with and visualize service access data for schools, hospitals, fire stations, and police stations in Miami-Dade County, making this an essential tool for public service accessibility analysis.
 
-  [View Project →](https://kevinmgis.github.io/Dade_County_Services_Map/map.html)
-  {% endcapture %}
-  {{ dade-county | markdownify }}
+[View Project →](https://kevinmgis.github.io/Dade_County_Services_Map/map.html)
+{% endcapture %}
+{{ dade-county | markdownify }}
 </div>
 
 
